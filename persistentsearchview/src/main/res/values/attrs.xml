@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright 2017 Paul Rybitskyi, paul.rybitskyi.work@gmail.com
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+-->
+
+<resources>
+
+    <declare-styleable name="PersistentSearchView">
+
+        <attr name="psv_isDismissableOnTouchOutside" format="boolean"/>
+        <attr name="psv_isProgressBarEnabled" format="boolean"/>
+        <attr name="psv_isVoiceInputButtonEnabled" format="boolean"/>
+        <attr name="psv_isClearInputButtonEnabled" format="boolean"/>
+        <attr name="psv_areSuggestionsDisabled" format="boolean"/>
+        <attr name="psv_shouldDimBehind" format="boolean"/>
+
+        <attr name="psv_dimColor" format="color"/>
+        <attr name="psv_dimAmount" format="float"/>
+
+        <attr name="psv_cardBackgroundColor" format="color"/>
+        <attr name="psv_cardCornerRadius" format="dimension"/>
+        <attr name="psv_cardElevation" format="dimension"/>
+
+        <attr name="psv_queryInputHint" format="string"/>
+        <attr name="psv_queryInputHintColor" format="color"/>
+        <attr name="psv_queryInputTextColor" format="color"/>
+        <attr name="psv_queryInputBarIconColor" format="color"/>
+
+        <attr name="psv_leftButtonDrawable" format="reference"/>
+        <attr name="psv_rightButtonDrawable" format="reference"/>
+        <attr name="psv_clearInputButtonDrawable" format="reference"/>
+        <attr name="psv_voiceInputButtonDrawable" format="reference"/>
+
+        <attr name="psv_dividerColor" format="color"/>
+        <attr name="psv_progressBarColor" format="color"/>
+
+        <attr name="psv_suggestionRecentSearchIconColor" format="color"/>
+        <attr name="psv_suggestionSearchSuggestionIconColor" format="color"/>
+        <attr name="psv_suggestionIconColor" format="color"/>
+        <attr name="psv_suggestionTextColor" format="color"/>
+        <attr name="psv_suggestionSelectedTextColor" format="color"/>
+
+    </declare-styleable>
+
+</resources>
